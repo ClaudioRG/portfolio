@@ -1,0 +1,98 @@
+body{
+    margin: auto;
+    font-family:'Raleway', sans-serif;
+    background-color: rgb(241, 200, 200);
+}
+h1{
+    text-align: center;
+    font-size: 1.7rem;
+}
+p{
+    text-align: center;
+    padding-top: 2rem;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.main-container img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+}
+.main-container{
+    background-color: rgb(241, 234, 234);
+    background-position: center;
+    border-width: 0.125rem;
+    border-color: rgb(241, 234, 234);
+    border-style: solid;
+    border-radius: 1rem;
+    margin: auto;
+    margin-top: 10rem;
+    width: 50%;
+    text-align: center;
+}
+.barra{
+    display: block;
+    padding-top:  3rem;
+    align-items: center;
+    margin-right: auto;
+    text-align: center;
+}
+.navegacion a{
+    color: rgb(32, 32, 32);
+    font-size: 1.4rem;
+    margin-right: 2.5rem;
+    padding-left: 3rem;
+}
+.navegacion a:last-of-type{
+    margin-right: 0;
+}
+.navegacion a:hover{
+    color: cornflowerblue;
+}
+.num{
+    display: inline-block;
+}
+.num a{
+    color: black;
+    float: left;
+    padding: 1rem 1.6rem;
+    text-decoration: none;
+}
+.num a.active{
+    background-color: rgb(215, 168, 236, 0.8);
+    color: white;
+    border-radius: 0.25rem;
+}
+.num a:hover:not(.active){
+    background-color: #ddd;
+    border-radius: 0.25rem;
+}
+img:hover{
+    opacity: 70%;
+}
+.card{
+    margin-left: 6%;
+    margin-top: 1.5%;
+    float: left;
+    background-color: white;
+    width: 20%;
+    height: 20%;
+    box-shadow: 0rem 0.8rem 1.6rem 0rem black;
+    border-radius: 0.5rem;
+}
+.text{
+    text-align: center;
+}
+main{
+    display: block;
+    margin: auto;
+    padding-left: 30%;
+}
+@media only screen and(max-width:50rem){
+    .main-container{
+        width: 100%;
+    }
+}

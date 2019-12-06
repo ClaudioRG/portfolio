@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="./img/favicon.ico" type="image/x-icon">
+    <title>Halloween</title>
+    <script>
+        function show(id){
+            document.getElementById(id).style.visibility="visible";
+        }
+        function hide(id){
+            document.getElementById(id).style.visibility="hidden";
+        }
+        function play(id){
+            document.getElementById(id).play();
+        }
+        function stop(id){
+            document.getElementById(id).pause();
+        }
+        alert("You have to click for interact")
+    </script>
+</head>   
+    <body>
+        <audio id="grito" src="./audio/grito.mp3" type="audio/mpeg"></audio>
+        <div id="wrapper">
+            <h1 id="title">HALLOWEEN</h1>
+            <p class="msg">Don't disturb the kitten</p>
+            <div id="cat" onclick="show('scream');play('grito');" onmouseout="hide('scream');stop('grito')"></div>
+            <img src="./img/AW539219_00.gif" alt="scary gif" id="scream">
+        </div>
+    </body>
+</html>

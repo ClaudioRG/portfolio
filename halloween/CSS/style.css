@@ -1,0 +1,46 @@
+body{
+    background-color: rgb(37, 37, 37);
+    font-family: 'Shadows Into Light', cursive;
+    text-align: center;
+}
+#wrapper{
+    position: relative;
+    background-image: url("../img/fondo.jpg");
+    background-repeat: no-repeat;
+    margin: auto;
+    width: 950px;
+    height: 475px;
+    border-radius: 6rem;
+    box-shadow: orangered 1rem 1rem 1rem,
+                orangered -1rem -1rem 1rem,
+                orangered 1rem -1rem 1rem,
+                orangered -1rem 1rem 1rem;
+    margin-top: 10rem;
+}
+#title{
+    position: absolute;
+    color: rgb(14, 13, 12);
+    font-size: 3rem;
+    left: 18.5rem;
+    bottom: 23rem;
+}
+.msg{
+    position: absolute;
+    color: darkviolet;
+    font-size: 1.5rem;
+    top: 17rem;
+    left: 13.5rem;
+}
+#cat{
+    position: absolute;
+    width: 9.4rem;
+    height: 6.9rem;
+    top: 21rem;
+    left: 15rem;
+}
+#scream{
+    visibility: hidden;
+    position: absolute;
+    top: 5rem;
+    left: 20rem;
+}

@@ -1,0 +1,65 @@
+body{
+    font-family: 'Raleway', sans-serif;
+    background-image: url(../img/fondo.jpg);
+    background-repeat: repeat;
+}
+#wrapper{
+    background-color: khaki;
+    box-shadow: black -1.5rem -1.5rem 1.5rem;
+    border: solid 0.1rem black;
+    border-radius: 0.3rem;
+    margin: auto;
+    margin-top: 5rem;
+    overflow: auto;
+    width: 70%;
+    height: 50rem;
+    padding: 0.5vw;
+}
+.sub{
+    text-align: center;
+}
+dt{
+    font-size: large;
+    font-weight: bold;
+}
+dd{
+   margin: 1rem; 
+}
+ul{
+    list-style: disc outside none;
+}
+li{
+    margin: 1rem;
+}
+table{
+    border: 0.15rem solid black;
+    border-radius: 0.20rem;
+    border-collapse: collapse;
+    margin: 1rem auto;
+    text-align: center;
+}
+th{
+    background-color: darkgrey;
+    border: 0.1rem solid black;
+    padding: 0.25rem;
+}
+td{
+    background-color: blanchedalmond;
+    border: 0.1rem solid black;
+    padding: 0.25rem;
+}
+tr:hover td{
+    background-color: rgba(219, 190, 27, 0.5);
+}
+iframe{
+    display: block;
+    margin: auto;
+    margin-bottom: 2rem;
+    border: 0.25rem solid rgba(143, 145, 63, 0.35);
+    border-radius: 0.5rem;
+}
+@media only screen and(max-width:50rem){
+    #wrapper{
+        width: 100%;
+    }
+}
